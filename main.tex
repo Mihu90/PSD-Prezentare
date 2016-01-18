@@ -274,54 +274,58 @@
 
 \begin{frame}{Posibile îmbunătățiri (I)}
 \begin{itemize}
-    \item \Large{TODO}
+    \item \Large{Codul PIN}
     \begin{itemize}
 		\vskip5pt
-		\item TODO
+		\item interval de schimbare, notificare
 		\vskip5pt
-		\item TODO
+		\item răspândire prin intermediul email-ului
+		\vskip5pt
+		\item blocare utilizator când se introduce pin-ul greșit
 	\end{itemize}
 	\vskip10pt
-	\item \Large{TODO}
+	\item \Large{Verificare bazată pe IP}
     \begin{itemize}
 		\vskip5pt
-		\item TODO
+		\item în funcție de zona în care te loghezi, verificare IP
 		\vskip5pt
-		\item TODO
+		\item verificare suplimentară dacă diferă locația
 	\end{itemize}
-	\item \Large{TODO}
+	\vskip10pt
+	\item \Large{Întrebări de verificare}
     \begin{itemize}
 		\vskip5pt
-		\item TODO
+		\item Definire la crearea contului, posibilitate de editare
 		\vskip5pt
-		\item TODO
+		\item Folosite la schimbarea parolei, metodă de autentificare la verificare pe bază de IP
 	\end{itemize}
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Posibile îmbunătățiri (II)}
 \begin{itemize}
-    \item \Large{TODO}
+    \item \Large{Autentificări eșuate}
     \begin{itemize}
 		\vskip5pt
-		\item TODO
+		\item Cod captcha
 		\vskip5pt
-		\item TODO
+		\item Salvare număr de autentificări în altă parte(NU în cookie-uri)
 	\end{itemize}
 	\vskip10pt
-	\item \Large{TODO}
+	\item \Large{HTML Code}
     \begin{itemize}
 		\vskip5pt
-		\item TODO
+		\item Activare/dezactivare doar de către super administrator
 		\vskip5pt
-		\item TODO
+		\item Cu cât e mai restrâns accesul, cu atât e mai sigur
 	\end{itemize}
-	\item \Large{TODO}
+	\vskip10pt
+	\item \Large{Valabilitate sesiune}
     \begin{itemize}
 		\vskip5pt
-		\item TODO
+		\item Sesiunea de acces la panoul de control să expire mai des
 		\vskip5pt
-		\item TODO
+		\item La fiecare ieșire din ea să se ceară din nou credențialele
 	\end{itemize}
 \end{itemize}
 \end{frame}
@@ -330,11 +334,15 @@
 
 \begin{frame}{Concluzii}
 	\begin{itemize}
-	    \item TODO
+	    \item Condițiile expuse sunt de ajuns pentru un forum
 	    \vskip10pt
-	    \item TODO
+	    \item Nu sunt date foate importante de protejat
 	    \vskip10pt
-	    \item TODO
+	    \item Securitate sportită - scădere a performanței
+	    \vskip10pt
+	    \item Nu e necesară autentificarea în doi pași în acest caz
+	    \vskip10pt
+	    \item Atacuri brute-force îngreunate prin blocarea temporară a contului la autentificări succesive eșuate
     \end{itemize}
 \end{frame}
 
