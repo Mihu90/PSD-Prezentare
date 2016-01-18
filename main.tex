@@ -218,11 +218,11 @@
     \begin{column}[c]{0.50\textwidth}
         \begin{itemize}
 		\vskip10pt
-		\item autentificare pe bază de credențiale
+		\item autentificare pe bază de \textbf{credențiale}
 		\vskip10pt
 		\item restricții privind complexitatea parolei
 		\vskip10pt
-		\item mecanism de sesiuni + cookie-uri
+		\item mecanism de \textbf{sesiuni} + \textbf{cookie-uri}
 		\vskip10pt
 		\item failed logins, human detection
 	    \end{itemize}
@@ -237,11 +237,11 @@
 		\vskip10pt
 		\item asignat unui grup
 		\vskip10pt
-		\item super administrator
+		\item \textbf{super administrator}
 		\vskip10pt
 		\item input-ul său este filtrat
 		\vskip10pt
-		\item jurnalizarea tuturor acțiunilor sale
+		\item \textbf{jurnalizarea} tuturor acțiunilor sale
 	    \end{itemize}
     \end{column}
     \begin{column}[c]{0.50\textwidth}
@@ -250,6 +250,24 @@
       \end{figure}
     \end{column}
   \end{columns}
+\end{frame}
+
+\begin{frame}{Sistemul de extensii}
+    \begin{figure}
+        \includegraphics[scale=0.4]{figures/screen5}
+    \end{figure}
+
+    \begin{itemize}
+		\vskip10pt
+		\item \textit{principala verigă slabă a securității}
+		\vskip10pt
+		\item \textbf{extensii} = \textbf{modificări} + \textbf{teme}
+		\vskip10pt
+		\item \textbf{semicentralizat}
+		\vskip10pt
+		\item fișierele din core sunt read-only
+	\end{itemize}
+
 \end{frame}
 
 \section[]{Posibile îmbunătățiri}
